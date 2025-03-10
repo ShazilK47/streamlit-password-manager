@@ -52,9 +52,10 @@ if page == "Generate Password":
             """,
             unsafe_allow_html=True,
         )
-        if st.button('Copy'):
-            pyperclip.copy(password)
-            st.success('Text copied successfully!')
+        # if st.button('Copy'):
+        #     pyperclip.copy(password)
+        #     st.success('Text copied successfully!')
+     
 
     with col3:
         st.subheader("Strength Level")
