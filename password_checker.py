@@ -1,4 +1,3 @@
-
 import re
 from generator import generate_password 
 
