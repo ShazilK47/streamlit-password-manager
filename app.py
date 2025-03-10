@@ -11,8 +11,6 @@ st.set_page_config(page_title="Password Manager", layout="wide")
 st.sidebar.title("Navigate")
 page = st.sidebar.radio("Go to:", ["Generate Password", "Check Password Strength"])
 
-
-
 def load_css():
     with open("styles.css", "r") as file:
         st.markdown(f"<style>{file.read()}</style>", unsafe_allow_html=True)
