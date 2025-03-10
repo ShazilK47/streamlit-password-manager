@@ -1,0 +1,48 @@
+.password-box {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.password-text {
+  flex-grow: 1;
+  text-align: center;
+}
+.strength-indicator {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+}
+.weak {
+  background-color: #ff4c4c;
+  color: white;
+}
+.medium {
+  background-color: #ffcc00;
+  color: white;
+}
+.strong {
+  background-color: #2ecc71;
+  color: white;
+}
+.copy-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
